@@ -7,10 +7,10 @@ import {
   Phone,
   MapPin,
   Instagram,
+  Facebook,
+  Linkedin,
   Clock,
-  ArrowUpRight,
   Shield,
-  MessageCircle,
 } from 'lucide-react';
 
 interface FooterProps {
@@ -48,23 +48,33 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
                   href={CLINIC_INFO.instagramUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-xs font-semibold text-zinc-300 hover:text-white hover:border-[#FF5C00] transition-colors"
-                  aria-label="Instagram profile for SW Skinthetics"
+                  className="w-10 h-10 rounded-xl bg-zinc-900 border border-zinc-800 flex items-center justify-center text-zinc-400 hover:text-[#FF5C00] hover:border-[#FF5C00]/60 hover:bg-orange-950/20 transition-all cursor-pointer"
+                  aria-label="Instagram"
+                  title="Instagram (@sw_nutrio_physio)"
                 >
-                  <Instagram className="w-4 h-4 text-[#FF5C00]" />
-                  <span>{CLINIC_INFO.instagramHandle}</span>
-                  <ArrowUpRight className="w-3.5 h-3.5 text-zinc-500" />
+                  <Instagram className="w-5 h-5" />
                 </a>
 
                 <a
-                  href={CLINIC_INFO.whatsappUrl}
+                  href={CLINIC_INFO.facebookUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg bg-zinc-900 border border-zinc-800 text-xs font-semibold text-emerald-400 hover:text-emerald-300 hover:border-emerald-500 transition-colors"
-                  aria-label="WhatsApp SW Skinthetics"
+                  className="w-10 h-10 rounded-xl bg-zinc-900 border border-zinc-800 flex items-center justify-center text-zinc-400 hover:text-blue-400 hover:border-blue-500/60 hover:bg-blue-950/20 transition-all cursor-pointer"
+                  aria-label="Facebook"
+                  title="Facebook"
                 >
-                  <MessageCircle className="w-4 h-4" />
-                  <span>WhatsApp Care Desk</span>
+                  <Facebook className="w-5 h-5" />
+                </a>
+
+                <a
+                  href={CLINIC_INFO.linkedinUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-10 h-10 rounded-xl bg-zinc-900 border border-zinc-800 flex items-center justify-center text-zinc-400 hover:text-sky-400 hover:border-sky-500/60 hover:bg-sky-950/20 transition-all cursor-pointer"
+                  aria-label="LinkedIn"
+                  title="LinkedIn"
+                >
+                  <Linkedin className="w-5 h-5" />
                 </a>
               </div>
             </div>

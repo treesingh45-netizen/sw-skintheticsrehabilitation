@@ -20,6 +20,10 @@ export const CLINIC_INFO = {
   whatsappUrl: 'https://wa.me/923475076316',
   instagramUrl: 'https://www.instagram.com/sw_nutrio_physio/',
   instagramHandle: '@sw_nutrio_physio',
+  facebookUrl: 'https://www.facebook.com/swskinthetics/',
+  facebookHandle: 'SW Skinthetics',
+  linkedinUrl: 'https://www.linkedin.com/company/sw-skinthetics-rehabilitation/',
+  linkedinHandle: 'SW Skinthetics Rehabilitation',
   hours: {
     weekdays: 'Monday – Saturday: 10:00 AM – 8:00 PM',
     sunday: 'Sunday: By Prior Appointment Only',

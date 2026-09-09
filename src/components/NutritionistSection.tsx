@@ -92,7 +92,8 @@ export const NutritionistSection: React.FC<NutritionistSectionProps> = ({
           {/* EXACT HEADING REQUIRED BY USER */}
           <AnimatedReveal animation="fade-up" delay={100}>
             <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-zinc-950 font-normal leading-tight tracking-tight">
-              Meet Our Experienced Nutritionist, Dr. Moatar Badar
+              Meet Our Experienced Nutritionist,
+              <span className="block mt-1 sm:mt-2 text-zinc-900">Dr. Moatar Badar</span>
             </h2>
           </AnimatedReveal>
 

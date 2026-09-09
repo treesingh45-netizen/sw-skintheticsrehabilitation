@@ -7,6 +7,8 @@ import {
   MapPin,
   Phone,
   Instagram,
+  Facebook,
+  Linkedin,
   MessageCircle,
   Clock,
   Send,
@@ -161,26 +163,47 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                     </div>
                   </div>
 
-                  {/* Instagram */}
+                  {/* Social Channels */}
                   <div className="flex items-start gap-4">
                     <div className="w-10 h-10 rounded-xl bg-orange-50 text-[#FF5C00] flex items-center justify-center shrink-0 mt-0.5">
                       <Instagram className="w-5 h-5" />
                     </div>
                     <div>
                       <h3 className="font-semibold text-zinc-900 text-sm">
-                        Instagram Updates
+                        Social & Community
                       </h3>
-                      <p className="text-zinc-600 mt-1">
+                      <div className="flex flex-wrap items-center gap-x-4 gap-y-1 mt-1 text-xs">
                         <a
                           href={CLINIC_INFO.instagramUrl}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="text-zinc-900 hover:text-[#FF5C00] font-medium transition-colors inline-flex items-center gap-1.5"
+                          className="text-zinc-800 hover:text-[#FF5C00] font-medium transition-colors inline-flex items-center gap-1"
                         >
-                          <span>{CLINIC_INFO.instagramHandle}</span>
-                          <ExternalLink className="w-3.5 h-3.5 text-zinc-400" />
+                          <Instagram className="w-3.5 h-3.5 text-[#FF5C00]" />
+                          <span>Instagram</span>
+                          <ExternalLink className="w-3 h-3 text-zinc-400" />
                         </a>
-                      </p>
+                        <a
+                          href={CLINIC_INFO.facebookUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-zinc-800 hover:text-blue-600 font-medium transition-colors inline-flex items-center gap-1"
+                        >
+                          <Facebook className="w-3.5 h-3.5 text-blue-500" />
+                          <span>Facebook</span>
+                          <ExternalLink className="w-3 h-3 text-zinc-400" />
+                        </a>
+                        <a
+                          href={CLINIC_INFO.linkedinUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="text-zinc-800 hover:text-sky-600 font-medium transition-colors inline-flex items-center gap-1"
+                        >
+                          <Linkedin className="w-3.5 h-3.5 text-sky-500" />
+                          <span>LinkedIn</span>
+                          <ExternalLink className="w-3 h-3 text-zinc-400" />
+                        </a>
+                      </div>
                     </div>
                   </div>
 
