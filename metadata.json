@@ -1,0 +1,6 @@
+{
+  "name": "SW Skinthetics Rehabilitation",
+  "description": "Premium Physiotherapy, Rehabilitation & Nutrition Care in Islamabad, Pakistan at Fantom Mall, I-8 Markaz.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
