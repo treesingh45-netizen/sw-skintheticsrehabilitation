@@ -277,10 +277,10 @@ export const ServicesPage: React.FC<ServicesPageProps> = ({
             <div className="lg:col-span-6 order-1 lg:order-2 space-y-6">
               <AnimatedReveal animation="fade-left">
                 <span className="text-xs uppercase tracking-[0.2em] text-[#FF5C00] font-semibold">
-                  Nutritional Synergy
+                  Clinical Nutritionist
                 </span>
                 <h2 className="text-3xl sm:text-4xl md:text-5xl font-serif text-zinc-950 font-normal leading-tight mt-2">
-                  Clinical Nutrition by Dr. Moatar Badar
+                  Dr. Moatar Badar
                 </h2>
                 <p className="text-base sm:text-lg text-zinc-600 leading-relaxed mt-3">
                   Recovery happens not just on the treatment table, but at the cellular level. Led by our experienced nutritionist, <strong>Dr. Moatar Badar</strong>, thoughtful dietary care complements physical rehabilitation by replenishing energy stores, managing inflammation, and accelerating tissue healing.

@@ -436,11 +436,11 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onSelectService 
                       Category 03
                     </span>
                     <h3 className="text-2xl font-serif font-normal text-zinc-950">
-                      Nutrition Care
+                      Clinical Nutrition
                     </h3>
                   </div>
                   <p className="text-sm text-zinc-600 leading-relaxed">
-                    Personalized nutrition strategies by Dr. Moatar Badar designed to support health, tissue repair, energy and long-term metabolic vitality.
+                    Led by <strong>Dr. Moatar Badar</strong>. Personalized dietary frameworks designed to accelerate tissue healing, manage inflammation, and support long-term metabolic vitality.
                   </p>
                 </div>
 

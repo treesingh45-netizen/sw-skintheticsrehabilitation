@@ -93,7 +93,7 @@ export const NutritionPage: React.FC<NutritionPageProps> = ({
 
           <AnimatedReveal animation="fade-up" delay={150}>
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-serif text-zinc-950 font-normal leading-tight">
-              Nutrition Care
+              Clinical Nutrition
             </h1>
           </AnimatedReveal>
 
