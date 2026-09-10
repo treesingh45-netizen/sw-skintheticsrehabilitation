@@ -29,8 +29,9 @@ export const CLINIC_INFO = {
     sunday: 'Sunday: By Prior Appointment Only',
   },
   mapEmbedUrl:
-    'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.655845016551!2d73.0728994!3d33.6660855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38df9557a2fcf8a1%3A0x6a0c0ad5f187ef8a!2sI-8%20Markaz%2C%20Islamabad!5e0!3m2!1sen!2s!4v1700000000000!5m2!1sen!2s',
-  mapDirectionsUrl: 'https://maps.google.com/?q=Fantom+Mall+I-8+Markaz+Islamabad',
+    'https://maps.google.com/maps?q=Sw+skinthetics,+Fantom+Mall,+I-8+Markaz,+Islamabad&t=&z=17&ie=UTF8&iwloc=&output=embed',
+  mapDirectionsUrl:
+    'https://www.google.com/maps/place/Sw+skinthetics/@33.6682393,73.0717697,17z/',
 };
 
 export const CLINICAL_DOCTORS = {

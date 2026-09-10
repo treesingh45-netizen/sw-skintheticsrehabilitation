@@ -578,7 +578,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({
 
           {/* Clean Map Embed Container */}
           <AnimatedReveal animation="fade-up" delay={150}>
-            <div className="rounded-3xl overflow-hidden border border-zinc-200 shadow-sm h-[380px] sm:h-[450px] relative bg-zinc-100">
+            <div className="rounded-3xl overflow-hidden border border-zinc-200 shadow-sm h-[380px] sm:h-[450px] relative bg-zinc-100 group">
               <iframe
                 title="SW Skinthetics Rehabilitation Location at Fantom Mall, I-8 Markaz Islamabad"
                 src={CLINIC_INFO.mapEmbedUrl}
@@ -588,8 +588,19 @@ export const ContactPage: React.FC<ContactPageProps> = ({
                 allowFullScreen={false}
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                className="w-full h-full grayscale-[25%] contrast-[1.05]"
+                className="w-full h-full"
               />
+              <div className="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-4 py-2.5 rounded-xl border border-zinc-200 shadow-md hidden sm:flex items-center gap-2.5">
+                <span className="w-2.5 h-2.5 rounded-full bg-[#FF5C00] animate-pulse" />
+                <div className="text-left">
+                  <p className="text-xs font-bold text-zinc-900 leading-tight">
+                    Sw skinthetics (3rd Floor)
+                  </p>
+                  <p className="text-[11px] text-zinc-500">
+                    Fantom Mall, I-8 Markaz, Islamabad
+                  </p>
+                </div>
+              </div>
             </div>
           </AnimatedReveal>
         </div>
